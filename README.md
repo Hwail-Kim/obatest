@@ -1,6 +1,4 @@
-# Obama-Lip-Sync
-An implementation of ObamaNet: Photo-realistic lip-sync from text (Kumar, Rithesh, et al. "ObamaNet: Photo-realistic lip-sync from text." arXiv preprint arXiv:1801.01442. 2017.). Implementation does not include an audio to text engine but trains directly on audio. All relevant data can be found in the data folder.
-![alt text](results/5.png)
+# obatest
 
 To generate mouth shape given audio run 
 ```
@@ -20,5 +18,5 @@ ffmpeg -i outputa.mp4 -i sampleAudio.wav -c:v copy -c:a aac -strict experimental
 
 
 
-"# obatest" 
-# obatest
+
+
